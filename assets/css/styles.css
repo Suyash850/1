@@ -48,9 +48,7 @@
 /*===== BASE =====*/
 *,::before,::after{
   box-sizing: border-box;
-}
-html{
-  scroll-behavior: smooth;
+
 }
 body{
   margin: var(--header-height) 0 0 0;
@@ -89,15 +87,15 @@ img{
   content: "";
   width: 64px;
   height: 0.18rem;
-  left: 0;
+  /*left: 0;
   right: 0;
   margin: auto;
-  top: 2rem;
+  top: 2rem;*/
   background-color: var(--first-color);
 }
 .section{
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+/*   padding-top: 3rem;
+  padding-bottom: 2rem; */
 }
 
 /*===== LAYOUT =====*/
@@ -106,9 +104,9 @@ img{
   display: grid;
   grid-template-columns: 100%;
   grid-column-gap: 2rem;
-  width: calc(100% - 2rem);
+ /* width: calc(100% - 2rem);
   margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
+  margin-right: var(--mb-2);*/
 }
 .l-header{
   width: 100%;
@@ -324,21 +322,24 @@ img{
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
+  /*font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);  padding: 1rem;
   border-radius: .5rem;
   border: 1.5px solid var(--second-color);
   outline: none;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-4); */
 }
 .contact__button{
   display: block;
   border: none;
   outline: none;
-  font-size: var(--normal-font-size);
+/*   font-size: var(--normal-font-size);
   cursor: pointer;
+<<<<<<< HEAD
   margin: auto;
+=======
+  margin-left: auto; */
+>>>>>>> d5b73729929d39fc5a37d75776bbdd6f9bf17ee0
 }
 
 /* ===== FOOTER =====*/
